@@ -1,9 +1,7 @@
 public class Test {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        System.out.println("Java");
-=======
-        System.out.println("education");
->>>>>>> 01b1955 (test.java added to feaure_branch)
+        System.out.println("Java education");
+        //new string
+        System.out.println("DICT");
     }
 }
