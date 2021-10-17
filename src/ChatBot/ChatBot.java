@@ -36,6 +36,63 @@ public class ChatBot {
         for (int i = 0; i <= number1; i++) {
             System.out.println(i + " !");
         }
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Why do we use methods?");
+        System.out.println("1. To repeat a statement multiple times.");
+        System.out.println("2. To decompose a program into several small subroutines.");
+        System.out.println("3. To determine the execution time of a program.");
+        System.out.println("4. To interrupt the execution of a program.");
 
+        Scanner scanner2 = new Scanner(System.in);
+        int response;
+        while (true) {
+            response = scanner2.nextInt();
+
+            if (response == 2) {
+                System.out.println("Great, you right!\n");
+                break;
+            }
+            System.out.println("Plaese, try again.");
+        }
+
+        System.out.println("What is a class in Java?");
+        System.out.println("1. The level of complexity of the program. All operators are divided into classes depending on the complexity of their use.");
+        System.out.println("2. This concept exists only in C ++, in Java there is no such concept.");
+        System.out.println("3. Just one of the standard names.");
+        System.out.println("4. The basic element of oop in the Java language.");
+
+        Scanner scanner3 = new Scanner(System.in);
+        int response2;
+        while (true) {
+            response2 = scanner3.nextInt();
+
+            if (response2 == 4) {
+                System.out.println("Great, you right!\n");
+                break;
+            }
+            System.out.println("Plaese, try again.");
+        }
+
+        System.out.println("How do I declare a CLASS in code?");
+        System.out.println("1. class MyClass {}.");
+        System.out.println("2. new class MyClass {}.");
+        System.out.println("3. select * from class MyClass {}.");
+        System.out.println("4. MyClass extends class {}.");
+
+        Scanner scanner4 = new Scanner(System.in);
+        int response3;
+        while (true) {
+            response3 = scanner3.nextInt();
+
+            if (response3 == 1) {
+                System.out.println("Great, you right!\n");
+                break;
+            }
+            System.out.println("Plaese, try again.");
+        }
+
+        System.out.println("Goodbye, have a nice day!");
     }
 }
+
+
