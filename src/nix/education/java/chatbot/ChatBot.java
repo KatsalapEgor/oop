@@ -18,14 +18,14 @@ public class ChatBot {
 
         System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
 
-        Scanner age1 = new Scanner(System.in);
-        int remainder3 = age1.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int remainder3 = scanner.nextInt();
 
-        Scanner age2 = new Scanner(System.in);
-        int remainder5 = age2.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int remainder5 = scanner.nextInt();
 
-        Scanner age3 = new Scanner(System.in);
-        int remainder7 = age3.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int remainder7 = scanner.nextInt();
 
 
         int age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
@@ -33,8 +33,8 @@ public class ChatBot {
         System.out.println("Your age is " + age + "; that's a good time to start programming!.");
         System.out.println("Now I will prove to you that I can count to any number you want.");
 
-        Scanner number = new Scanner(System.in);
-        int number1 = number.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int number1 = scanner.nextInt();
         for (int i = 0; i <= number1; i++) {
             System.out.println(i + " !");
         }
