@@ -18,13 +18,10 @@ public class ChatBot {
 
         System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
 
-        Scanner scanner = new Scanner(System.in);
         int remainder3 = scanner.nextInt();
 
-        Scanner scanner = new Scanner(System.in);
         int remainder5 = scanner.nextInt();
 
-        Scanner scanner = new Scanner(System.in);
         int remainder7 = scanner.nextInt();
 
 
@@ -33,7 +30,6 @@ public class ChatBot {
         System.out.println("Your age is " + age + "; that's a good time to start programming!.");
         System.out.println("Now I will prove to you that I can count to any number you want.");
 
-        Scanner scanner = new Scanner(System.in);
         int number1 = scanner.nextInt();
         for (int i = 0; i <= number1; i++) {
             System.out.println(i + " !");
@@ -45,10 +41,9 @@ public class ChatBot {
         System.out.println("3. To determine the execution time of a program.");
         System.out.println("4. To interrupt the execution of a program.");
 
-        Scanner scanner2 = new Scanner(System.in);
         int response;
         while (true) {
-            response = scanner2.nextInt();
+            response = scanner.nextInt();
 
             if (response == 2) {
                 System.out.println("Great, you right!\n");
@@ -63,10 +58,9 @@ public class ChatBot {
         System.out.println("3. Just one of the standard names.");
         System.out.println("4. The basic element of oop in the Java language.");
 
-        Scanner scanner3 = new Scanner(System.in);
         int response2;
         while (true) {
-            response2 = scanner3.nextInt();
+            response2 = scanner.nextInt();
 
             if (response2 == 4) {
                 System.out.println("Great, you right!\n");
@@ -81,10 +75,9 @@ public class ChatBot {
         System.out.println("3. select * from class MyClass {}.");
         System.out.println("4. MyClass extends class {}.");
 
-        Scanner scanner4 = new Scanner(System.in);
         int response3;
         while (true) {
-            response3 = scanner3.nextInt();
+            response3 = scanner.nextInt();
 
             if (response3 == 1) {
                 System.out.println("Great, you right!\n");
